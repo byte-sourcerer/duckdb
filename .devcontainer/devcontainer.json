@@ -1,0 +1,21 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/cpp
+{
+    "name": "DuckDB dev environment",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    // "features": {},
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "llvm-vs-code-extensions.vscode-clangd",
+                "ms-azuretools.vscode-docker",
+                "ms-vscode.cmake-tools",
+                "ms-vscode.cpptools"
+            ]
+        }
+    }
+}
